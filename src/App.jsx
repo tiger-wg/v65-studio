@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import PaddedBorder from "./components/PaddedBorder";
@@ -11,7 +11,7 @@ import VideoView from "./components/VideoView";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <Navbar />
         <main className="main">
@@ -25,6 +25,6 @@ export default function App() {
         </main>
         <PaddedBorder />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function CoffeeRuns() {
+    const BASE = import.meta.env.BASE_URL;
     return (
     <div style={{ position: 'relative', minHeight: '100vh' }}>
       {/* COFFEE RUNS page content */}
@@ -17,7 +18,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team1.png"
+                      src={`${BASE}pictures/team1.png`}
                       alt="Team Member 1"
                       className="profile-image"
                     />
@@ -33,7 +34,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team2.png"
+                      src={`${BASE}pictures/team2.png`}
                       alt="Team Member 2"
                       className="profile-image"
                     />
@@ -49,7 +50,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team3.png"
+                      src={`${BASE}pictures/team3.png`}
                       alt="Team Member 3"
                       className="profile-image"
                     />
@@ -65,7 +66,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team4.png"
+                      src={`${BASE}pictures/team4.png`}
                       alt="Team Member 4"
                       className="profile-image"
                     />
@@ -81,7 +82,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team5.png"
+                      src={`${BASE}pictures/team5.png`}
                       alt="Team Member 5"
                       className="profile-image"
                     />
@@ -97,7 +98,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team6.png"
+                      src={`${BASE}pictures/team6.png`}
                       alt="Team Member 6"
                       className="profile-image"
                     />
@@ -115,7 +116,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team1.png"
+                      src={`${BASE}pictures/team1.png`}
                       alt="Team Member 1"
                       className="profile-image"
                     />
@@ -131,7 +132,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team2.png"
+                      src={`${BASE}pictures/team2.png`}
                       alt="Team Member 2"
                       className="profile-image"
                     />
@@ -147,7 +148,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team3.png"
+                      src={`${BASE}pictures/team3.png`}
                       alt="Team Member 3"
                       className="profile-image"
                     />
@@ -163,7 +164,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team4.png"
+                      src={`${BASE}pictures/team4.png`}
                       alt="Team Member 4"
                       className="profile-image"
                     />
@@ -179,7 +180,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team5.png"
+                      src={`${BASE}pictures/team5.png`}
                       alt="Team Member 5"
                       className="profile-image"
                     />
@@ -195,7 +196,7 @@ export default function CoffeeRuns() {
                 <a href="#" className="team-profile-link">
                   <div className="profile-image-container">
                     <img
-                      src="/pictures/team6.png"
+                      src={`${BASE}pictures/team6.png`}
                       alt="Team Member 6"
                       className="profile-image"
                     />
@@ -219,7 +220,7 @@ export default function CoffeeRuns() {
             <div className="collection-wrapper collection-wrapper1">
               <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-link">
                 <img
-                  src="/pictures/c1.png"
+                  src={`${BASE}pictures/c1.png`}
                   alt="Coffee Collection 1"
                   className="collection-image collection-image1"
                 />
@@ -230,7 +231,7 @@ export default function CoffeeRuns() {
             <div className="collection-wrapper collection-wrapper2">
               <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-link">
                 <img
-                  src="/pictures/c2.png"
+                  src={`${BASE}pictures/c2.png`}
                   alt="Coffee Collection 2"
                   className="collection-image collection-image2"
                 />
@@ -241,7 +242,7 @@ export default function CoffeeRuns() {
             <div className="collection-wrapper collection-wrapper3">
               <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-link">
                 <img
-                  src="/pictures/c3.png"
+                  src={`${BASE}pictures/c3.png`}
                   alt="Coffee Collection 3"
                   className="collection-image collection-image3"
                 />
@@ -252,7 +253,7 @@ export default function CoffeeRuns() {
             <div className="collection-wrapper collection-wrapper4">
               <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-link">
                 <img
-                  src="/pictures/c4.png"
+                  src={`${BASE}pictures/c4.png`}
                   alt="Coffee Collection 4"
                   className="collection-image collection-image4"
                 />
@@ -263,7 +264,7 @@ export default function CoffeeRuns() {
             <div className="collection-wrapper collection-wrapper5">
               <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-link">
                 <img
-                  src="/pictures/c5.png"
+                  src={`${BASE}pictures/c5.png`}
                   alt="Coffee Collection 5"
                   className="collection-image collection-image5"
                 />
@@ -274,7 +275,7 @@ export default function CoffeeRuns() {
             <div className="collection-wrapper collection-wrapper6">
               <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="portfolio-link">
                 <img
-                  src="/pictures/c6.png"
+                  src={`${BASE}pictures/c6.png`}
                   alt="Coffee Collection 6"
                   className="collection-image collection-image6"
                 />

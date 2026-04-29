@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 
 export default function Baked() {
+  const BASE = import.meta.env.BASE_URL;
   const [isExpanded, setIsExpanded] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
   const videoref = useRef(null);
@@ -68,7 +69,7 @@ export default function Baked() {
         }}
       >
         <img 
-          src="/pictures/cookie.png" 
+          src={`${BASE}pictures/cookie.png`} 
           alt="Baked & Halfbaked Cookie" 
           className="baked-image"
         />

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 /** Same reel for every slot until each tile has its own Vimeo upload. */
 const DEMO_VIMEO_ID = "1148482890";
+const BASE = import.meta.env.BASE_URL;
 
 
 export default function FrameByFrame() {
@@ -17,7 +18,7 @@ export default function FrameByFrame() {
                 <div className="wrapper1">
                     <Link to={`/video?id=1&title=v65_Demo_Reel&vimeoId=${DEMO_VIMEO_ID}`} className="portfolio-link">
                         <img
-                            src="/pictures/t1.png"
+                            src={`${BASE}pictures/t1.png`}
                             alt=""
                             className="portfolio-image1"
                         />
@@ -29,7 +30,7 @@ export default function FrameByFrame() {
                 <div className="wrapper2">
                     <Link to={`/video?id=2&title=Video%202&vimeoId=${DEMO_VIMEO_ID}`} className="portfolio-link">
                         <img
-                            src="/pictures/t2.png"
+                            src={`${BASE}pictures/t2.png`}
                             alt=""
                             className="portfolio-image2"
                         />
@@ -43,7 +44,7 @@ export default function FrameByFrame() {
                 <div className="wrapper3">
                     <Link to={`/video?id=3&title=Video%203&vimeoId=${DEMO_VIMEO_ID}`} className="portfolio-link">
                         <img
-                            src="/pictures/m1.png"
+                            src={`${BASE}pictures/m1.png`}
                             alt=""
                             className="portfolio-image3"
                         />
@@ -54,7 +55,7 @@ export default function FrameByFrame() {
                 <div className="wrapper4">
                     <Link to={`/video?id=4&title=Video%204&vimeoId=${DEMO_VIMEO_ID}`} className="portfolio-link">
                         <img
-                            src="/pictures/m2.png"
+                            src={`${BASE}pictures/m2.png`}
                             alt=""
                             className="portfolio-image4"
                         />
@@ -92,7 +93,7 @@ export default function FrameByFrame() {
                 <div className="wrapper5">
                     <Link to={`/video?id=5&title=Video%205&vimeoId=${DEMO_VIMEO_ID}`} className="portfolio-link">
                         <img
-                            src="/pictures/b1.png"
+                            src={`${BASE}pictures/b1.png`}
                             alt=""
                             className="portfolio-image5"
                         />
@@ -103,7 +104,7 @@ export default function FrameByFrame() {
                 <div className="wrapper6">
                     <Link to={`/video?id=6&title=Video%206&vimeoId=${DEMO_VIMEO_ID}`} className="portfolio-link">
                         <img
-                            src="/pictures/b2.png"
+                            src={`${BASE}pictures/b2.png`}
                             alt=""
                             className="portfolio-image6"
                         />
